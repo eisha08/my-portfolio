@@ -1,0 +1,146 @@
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.skill-page{
+  height: 120vh;
+  width: 100%;
+  
+}
+.container {
+  width: 55%; /* Full width */
+  background-color: #ddd; 
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  top: 2rem;
+  margin-left: 15rem;
+}
+.context{
+  width: 55%;
+
+  margin-left: 15rem;
+
+
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding: 10px;
+  padding-right: 30px;
+  font-family: 'Arvo', serif;
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(179, 54, 179); /* White text color */
+  font-weight: bold;
+  
+  /* margin-left: 10rem; */
+
+
+}
+.head-text{
+  font-size: 2rem;
+  color: rgb(179, 54, 179);
+  font-weight: bold;
+  font-family: 'Arvo', serif;
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+margin-left: 30rem;
+}
+.head-textt{
+  display: none;
+}
+.html {width: 90%; 
+  background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);;
+  height: 2.2rem;
+}
+ 
+.css {width: 80%;
+   background:linear-gradient(to top, #c471f5 0%, #fa71cd 100%);;
+   
+  } /* Blue */
+.js {width: 80%;
+   background:linear-gradient(to top, #c471f5 0%, #fa71cd 100%);;
+  } /* Red */
+.php {width: 75%; 
+  background:linear-gradient(to top, #c471f5 0%, #fa71cd 100%);;
+} 
+.mongo{
+  width: 70%;
+  background:linear-gradient(to top, #c471f5 0%, #fa71cd 100%);;
+}
+.java{
+  width: 80%;
+  background:linear-gradient(to top, #c471f5 0%, #fa71cd 100%);;
+}
+@media screen and (max-width:991px){
+  .head-text{
+    margin-left: 18rem;
+  }
+  .container{
+    margin-left: 10rem;
+  }
+  .context{
+    margin-left: 10rem;
+  }
+}
+@media screen and (max-width:767px){
+  .head-text{
+    margin-left: 0.6rem;
+    font-size: 1.6rem;
+  }
+  .container{
+    margin-left: 8rem;
+  }
+  .context{
+    margin-left: 8rem;
+  }
+}
+@media screen and (max-width:479px){
+  .head-textt{
+    font-size: 1.3rem;
+    display: block;
+    color:rgb(179, 54, 179) ;
+    font-weight: bold;
+    margin-left: 0.4rem;
+  }
+  .head-text{
+    display: none;
+  }
+  .skills{
+    font-size: 0.9rem;
+  }
+  .container{
+    margin-left: 5rem;
+  }
+  .context{
+    margin-left: 5rem;;
+  }
+  .html {width: 90%; 
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);;
+    height: 1.5rem;
+  }
+   
+  .css {width: 80%;
+     background:linear-gradient(to top, #c471f5 0%, #fa71cd 100%);;
+     height: 1.5rem;
+     
+    } /* Blue */
+  .js {width: 80%;
+     background:linear-gradient(to top, #c471f5 0%, #fa71cd 100%);;
+     height: 1.5rem;
+    } /* Red */
+  .php {width: 75%; 
+    background:linear-gradient(to top, #c471f5 0%, #fa71cd 100%);;
+    height: 1.5rem;
+  } 
+  .mongo{
+    width: 70%;
+    background:linear-gradient(to top, #c471f5 0%, #fa71cd 100%);;
+    height: 1.5rem;
+  }
+  .java{
+    width: 80%;
+    background:linear-gradient(to top, #c471f5 0%, #fa71cd 100%);;
+    height: 1.5rem;
+  }
+}

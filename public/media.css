@@ -1,0 +1,299 @@
+.nav-toggle{
+    display: none;
+  }
+  @media screen and (max-width:991px) {
+    .nav-toggle{
+      display: block;
+      margin-right: 20px;
+    }
+    
+    .button{
+      margin-left: 7rem;
+    }
+    .navitems{
+      display: none;
+    }
+    .logoside{
+      margin-top: 3rem;
+    }
+    .button{
+      margin-right: -3rem;
+    }
+    .gif{
+        width: 300px;
+        height: 300px;
+    }
+    .about-head{
+        font-size: 25px;
+    }
+    .left-aboutContent{
+        font-size: 0.7rem;
+    }
+    .about{
+        height: 50vh;
+    }
+    
+    .image1{
+        position: absolute;
+         
+     }
+     .image2{
+         position: relative;
+         
+     }
+     .background{
+         height: 400pxpx;
+         width: 500px;
+     }
+     .myPhoto{
+         width:200px;
+         height: 230px;
+         right: 120px;
+         bottom: 40px;
+         
+     }
+     .form{
+        height: fit-content;
+     }
+     .contactgif{
+        height: 25rem;
+        width: 20rem;
+        margin-left: -1rem;
+
+     }
+     .form-right{
+        margin-right: -2rem;
+     }
+     .form-div{
+        width: 20rem;
+        height: fit-content;
+        
+     }
+  }
+  @media screen and (max-width:767px){
+    .gif{
+        width: 200px;
+        height: 300px;
+        margin-top: 40px;
+        gap: 1rem;
+    }
+    .about-head{
+        font-size: 25px;
+    }
+    .left-aboutContent{
+        font-size: 0.7rem;
+        
+    }
+    .about-left{
+        right:1rem;
+    }
+    .about{
+        height: 50vh;
+    }
+    
+    .image1{
+        position: absolute;
+         
+     }
+     .image2{
+         position: relative;
+         
+     }
+     .background{
+         height: 300px;
+         width: 300px;
+         top: 2vh;
+     }
+     .myPhoto{
+         width:120px ;
+         height: 120px;
+         top: 13vh;
+         right: 15vh;
+         
+     }
+     .socialmedia-icons2{
+        display: block;
+        height: 5rem;
+        margin-top: 1rem;
+     }
+     .socialmedia-icons{
+        display: none;
+        margin-top: 200rem;
+     }
+     .intro{
+        height: 60vh;
+     }
+     .name{
+        font-size: 1.5rem;
+     }
+     .prof{
+        font-size: 1rem;
+     }
+     .intro-text{
+        font-size: 0.6rem;
+     }
+     .intro-button{
+        width: 120px;
+        font-size: 0.8rem;
+     }
+     .socialmedia-icons{
+        width: 250px;
+        height: 250px;
+        flex-direction: column;
+     }
+     .contactgif{
+        width: 30rem;
+        
+        
+     }
+     .form{
+        height: 160vh;
+     }
+     .form-div{
+        margin-right: 12rem;
+        margin-top: -10rem;
+        
+        
+     }
+     .form-right{
+        top: 40rem;
+        overflow: visible;
+        left: 1rem;
+     }
+  }
+  @media screen and (max-width:479px){
+   .navbar{
+      height: 12vh;
+   }
+   .intro{
+      height: fit-content;
+   }
+   .button{
+      margin-top: 1rem;
+   }
+    .gif{
+        width: 300px;
+        height: 300px;
+
+    }
+    .head-textt{
+      margin-top: 20rem;
+    }
+    .form-div{
+      margin-left: -1.5rem;
+    }
+    .button{
+      width: fit-content;
+      font-size: 0.8rem;
+      margin-right: 0rem;
+    }
+    .socialmedia-icons2{
+        display: none;
+    }
+    .socialmedia-icons{
+        display: none;
+    }
+    .socialmedia-iconss{
+        height: 2rem;
+        display: block;
+        margin-top: 0.8rem;
+    }
+    .about-head{
+        font-size: 1rem;
+    }
+    .left-aboutContent{
+        font-size: 0.8rem;
+       
+        }
+
+    .about{
+        height: fit-content;
+    }
+    .about-left{
+        left: 1px;
+        top: 50vh;
+        padding: 10px;
+        
+
+    }
+    .about-right{
+        position: absolute;
+        
+    }
+    
+    .image1{
+        position: absolute;
+         
+     }
+     .image2{
+         position: relative;
+         
+     }
+     .background{
+         height: 250px;
+         width: 250px;
+         top: 2vh;
+     }
+     .myPhoto{
+         width: 60px; ;
+         height: 100px;
+         top: 13vh;
+         right: 6vh;
+         
+     }
+     
+     .name{
+        font-size: 1rem;
+        
+     }
+     .prof{
+        font-size: 0.8rem;
+     }
+     .intro-text{
+        font-size: 0.6rem;
+     }
+     .intro-button{
+        width: 80px;
+        font-size: 0.6rem;
+     }
+     .socialmedia-icons{
+        font-size: 0.5rem;
+        flex-direction: column;
+     }
+     .left-intro{
+        left: -2rem;
+     }
+     .left-aboutContent{
+      width: fit-content;
+     }
+     .about-para{
+      font-size: 0.6rem;
+     }
+     .logoName{
+       font-size: 1rem; 
+     }
+     .toggle>*{
+        width: 0.4rem;
+        height: 0.4rem;
+     }
+     .t-button{
+        height: 0.6rem;
+        width: 0.6rem;
+     }
+     .project-head{
+        font-size: 0.8rem;
+     }
+     .form-left{
+        right: 2rem;
+     }
+     .input-container label { font-size: 0.8rem; }
+     .form-head{
+        font-size: 1.2rem;
+     }
+     .foot{
+        font-size: 0.8rem;
+     }
+     .head-text{
+      font-size: 1.5rem;
+     }
+  }
